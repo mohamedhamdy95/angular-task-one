@@ -1,0 +1,18 @@
+.layer{
+  background-color: #1abc9c;
+  opacity: 0;
+  cursor: pointer;
+  transition: .6s opacity;
+}
+.box:hover .layer{
+  opacity: 1;
+}
+
+.show-box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,255,255,0.5)
+}
